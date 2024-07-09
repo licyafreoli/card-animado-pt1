@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    border: solid 1px;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.img {
+    display: flex;
+    margin-top: 12.45px;
+    margin-left: 12.45px;
+    
+}
+
+img {
+    height: 155px;
+    border-radius: 15px;
+}
+
+.titulo h2 {
+    margin-left: 12.45px;
+    font-size: 25px;
+}
+
+.texto p {
+    margin-left: 12.45px;
+    width: 275px;
+}
+
+.buttonAnimado {
+    position: relative;
+    display: inline-block;
+    border: none;
+    height: 50px;
+    width: 274px;
+    margin-left: 12.45px;
+    border-radius: 15px;
+    background-color: rgb(0, 153, 255);
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.buttonAnimado span {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
